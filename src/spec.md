@@ -1,39 +1,29 @@
-# Aqua Regia Mineral Water Website
+# Aqua Regia Water
 
 ## Current State
-
-The website features a cyan and white themed landing page for Aqua Regia mineral water brand. The current design includes:
-- Hero section with water bottle image
-- Product showcase section displaying the bottle
-- Benefits section with feature cards
-- Pricing prominently displayed at ₹9
-- Responsive layout with navigation
-
-The current bottle image is `aqua-regia-bottle.dim_800x1200.png` which depicts a glass water bottle.
+The website displays a plastic water bottle image with incorrect branding. The current bottle does not accurately represent the Aqua Regia brand name and is missing the key pricing/volume information (500ml at ₹9).
 
 ## Requested Changes (Diff)
 
 ### Add
-- New plastic water bottle image in cyan and white theme matching the brand
+- Add "500ml at ₹9" text/label on the bottle design
 
 ### Modify
-- Replace the existing glass bottle image with a plastic bottle design
-- Update both hero section and product showcase section to use the new plastic bottle image
+- Replace the current water bottle image with a new plastic bottle that correctly displays "Aqua Regia" as the brand name
+- Ensure the bottle design maintains the cyan and white color theme
 
 ### Remove
-- Remove the old glass bottle image file
+- Remove the existing incorrectly branded bottle image
 
 ## Implementation Plan
-
-1. Generate new plastic water bottle image with:
-   - Cyan and white color scheme
-   - Clear plastic material appearance
-   - Professional product photography style
-   - Dimensions 800x1200px
-   - Transparent background
-2. Replace the image file in the frontend assets directory
-3. No code changes needed (image paths remain the same)
+1. Generate a new plastic water bottle image with correct "Aqua Regia" branding
+2. Include "500ml" and "₹9" pricing information on the bottle label
+3. Maintain cyan and white color scheme throughout the bottle design
+4. Replace the existing bottle image in the frontend assets
 
 ## UX Notes
-
-The plastic bottle design will maintain the premium look while being more recognizable as a standard bottled water product. The cyan and white branding colors will remain consistent across the new design.
+The updated bottle should clearly communicate:
+- Brand identity: "Aqua Regia" prominently displayed
+- Volume: 500ml clearly visible
+- Price point: ₹9 emphasized as a key selling point
+- Visual consistency with the cyan and white brand theme
